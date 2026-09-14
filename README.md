@@ -164,7 +164,7 @@ Two modality-specific pipelines — text (**BioBERT**) and image (**CNNs trained
 ```text
 TOP LANGUAGES · by bytes across own repos
 ──────────────────────────────────────────
-JavaScript   █████████░░░░░░░░░░░ 43%
+JavaScript   █████████░░░░░░░░░░░ 44%
 Python       █████░░░░░░░░░░░░░░░ 25%
 TypeScript   ████░░░░░░░░░░░░░░░░ 18%
 Solidity     █░░░░░░░░░░░░░░░░░░░  7%
@@ -187,7 +187,7 @@ ATTEST-FL                      1mo ago
 | [shoulder-rom-app](https://github.com/Anjalisehrawat007/shoulder-rom-app) | JavaScript | 1mo ago |
 | [ATTEST-FL](https://github.com/Anjalisehrawat007/ATTEST-FL) | Python | 1mo ago |
 
-<sub>Auto-updated 2026-09-14 from the GitHub API · 16 public repos · 0 stars · 11 commits pushed in the last 30 days across 3 repos</sub>
+<sub>Auto-updated 2026-09-14 from the GitHub API · 16 public repos · 0 stars · 12 commits pushed in the last 30 days across 3 repos</sub>
 <!-- ACTIVITY:END -->
 
 ### Contribution Activity
@@ -232,7 +232,7 @@ ATTEST-FL                      1mo ago
 |---|---|
 | **Current build** | RareCare — AI assistant for rare & stigma-associated diseases · 🚧 in development |
 | **Latest push** | [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) · today |
-| **30-day throughput** | 11 commits · 3 active repos |
+| **30-day throughput** | 12 commits · 3 active repos |
 | **Profile refreshed** | 2026-09-14 (every 6h via GitHub Actions) |
 <!-- NOW:END -->
 
