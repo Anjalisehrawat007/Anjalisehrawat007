@@ -78,7 +78,7 @@ function statsSvg(t) {
   const legend = languages.map((l, i) => `<g transform="translate(${barX + i * 120}, ${barY + 30})"><circle cx="5" cy="-4" r="4" fill="${LANG_COLORS[l.name] ?? t.muted}"/><text x="14" y="0" font-family="${FONT}" font-size="12" fill="${t.fg}">${esc(l.name)}</text><text x="14" y="16" font-family="${MONO}" font-size="11" fill="${t.muted}">${l.pct.toFixed(0)}%</text></g>`).join("");
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="GitHub statistics for ${USER}">
 <rect width="${W}" height="${H}" rx="14" fill="${t.bg}" stroke="${t.border}"/>
-<text x="40" y="38" font-family="${MONO}" font-size="11" letter-spacing="2" fill="${t.accent}">ENGINEERING ACTIVITY</text>
+<text x="40" y="38" font-family="${MONO}" font-size="11" letter-spacing="2" fill="${t.accent}">GITHUB MISSION CONTROL</text>
 <text x="760" y="38" text-anchor="end" font-family="${MONO}" font-size="11" fill="${t.muted}">live from GitHub API · ${updated}</text>
 ${metrics.map((m, i) => `<g transform="translate(${40 + i * 180}, 62)"><rect width="164" height="60" rx="10" fill="${t.surface}" stroke="${t.border}"/><text x="14" y="34" font-family="${FONT}" font-size="26" font-weight="700" fill="${t.fg}">${m.v}</text><text x="14" y="50" font-family="${FONT}" font-size="11" fill="${t.muted}">${m.l}${m.hint ? ` · ${m.hint}` : ""}</text></g>`).join("")}
 <text x="40" y="142" font-family="${MONO}" font-size="10" letter-spacing="1.5" fill="${t.muted}">LANGUAGES · BY BYTES ACROSS OWN REPOSITORIES</text>
@@ -115,18 +115,38 @@ for (const [name, t] of Object.entries(themes)) {
   writeFileSync(`assets/activity-${name}.svg`, activitySvg(t));
 }
 
-/* ---------------- README text block (accessible, indexable) ---------------- */
+/* ---------------- README text blocks (accessible, indexable) ---------------- */
+const bar = (pct) => "█".repeat(Math.max(1, Math.round(pct / 5))).padEnd(20, "░");
+const lastPush = repos.filter((r) => r.name !== USER)[0];
 const block = [
   `<!-- ACTIVITY:START -->`,
+  "```text",
+  `TOP LANGUAGES · by bytes across own repos`,
+  `──────────────────────────────────────────`,
+  ...languages.map((l) => `${l.name.padEnd(12).slice(0, 12)} ${bar(l.pct)} ${String(Math.round(l.pct)).padStart(2)}%`),
+  `\nRECENT ACTIVITY`,
+  `──────────────────────────────────────────`,
+  ...recent.map((r) => `${r.name.slice(0, 30).padEnd(30)} ${rel(r.pushed_at)}`),
+  "```",
   `| Repository | Language | Last push |`,
   `|---|---|---|`,
   ...recent.map((r) => `| [${r.name}](${r.html_url}) | ${r.language ?? "—"} | ${rel(r.pushed_at)} |`),
   ``,
-  `<sub>Auto-updated ${updated} from the GitHub API · ${user.public_repos} public repos · ${commits30d} commits pushed in the last 30 days</sub>`,
+  `<sub>Auto-updated ${updated} from the GitHub API · ${user.public_repos} public repos · ${stars} stars · ${commits30d} commits pushed in the last 30 days across ${activeRepos30d} repos</sub>`,
   `<!-- ACTIVITY:END -->`,
 ].join("\n");
-const readme = readFileSync("README.md", "utf8");
-if (readme.includes("<!-- ACTIVITY:START -->")) {
-  writeFileSync("README.md", readme.replace(/<!-- ACTIVITY:START -->[\s\S]*?<!-- ACTIVITY:END -->/, block));
-}
+const now = [
+  `<!-- NOW:START -->`,
+  `| Field | Status |`,
+  `|---|---|`,
+  `| **Current build** | RareCare — AI assistant for rare & stigma-associated diseases · 🚧 in development |`,
+  `| **Latest push** | [${lastPush?.name ?? "—"}](${lastPush?.html_url ?? "#"}) · ${lastPush ? rel(lastPush.pushed_at) : "—"} |`,
+  `| **30-day throughput** | ${commits30d} commits · ${activeRepos30d} active repos |`,
+  `| **Profile refreshed** | ${updated} (every 6h via GitHub Actions) |`,
+  `<!-- NOW:END -->`,
+].join("\n");
+let readme = readFileSync("README.md", "utf8");
+if (readme.includes("<!-- ACTIVITY:START -->")) readme = readme.replace(/<!-- ACTIVITY:START -->[\s\S]*?<!-- ACTIVITY:END -->/, block);
+if (readme.includes("<!-- NOW:START -->")) readme = readme.replace(/<!-- NOW:START -->[\s\S]*?<!-- NOW:END -->/, now);
+writeFileSync("README.md", readme);
 console.log(`ok · ${user.public_repos} repos · ${stars} stars · ${commits30d} commits/30d · ${languages.map((l) => l.name).join(", ")}`);

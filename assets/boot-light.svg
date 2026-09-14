@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-label="ANJALI.SYS boot screen — Identity: Anjali Sehrawat. Role: Software Engineer. Focus: AI/ML, Full-Stack, Backend. Current build: RareCare. System status: online.">
+<defs>
+  <pattern id="grid-b" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(31,35,40,0.05)" stroke-width="1"/></pattern>
+  <radialGradient id="g1-b" cx="0.1" cy="0" r="0.7"><stop offset="0" stop-color="rgba(79,70,229,0.12)"/><stop offset="1" stop-color="rgba(79,70,229,0.12)" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g2-b" cx="0.95" cy="1" r="0.7"><stop offset="0" stop-color="rgba(14,143,168,0.10)"/><stop offset="1" stop-color="rgba(14,143,168,0.10)" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip-b"><rect width="1000" height="440" rx="18"/></clipPath>
+  <filter id="soft-b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<g clip-path="url(#clip-b)"><rect width="1000" height="440" fill="#ffffff"/><rect width="1000" height="440" fill="url(#grid-b)"/><rect width="1000" height="440" fill="url(#g1-b)"/><rect width="1000" height="440" fill="url(#g2-b)"/></g>
+<rect x="0.75" y="0.75" width="998.5" height="438.5" rx="18" fill="none" stroke="#d0d7de"/>
+<!-- title bar -->
+<text x="64" y="70" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="4" fill="#4f46e5">ANJALI.SYS</text>
+<text x="200" y="70" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#8c959f">// ENGINEERING PROFILE</text>
+<line x1="64" y1="92" x2="936" y2="92" stroke="#d0d7de"/>
+<!-- boot line with cursor -->
+<text x="64" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#656d76">&gt; booting engineering profile</text>
+<rect x="290" y="111" width="8" height="14" fill="#4f46e5"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<!-- boot lines -->
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.35s" fill="freeze"/>
+<text x="64" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">IDENTITY</text>
+<text x="230" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2328">Anjali Sehrawat</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.35s" fill="freeze"/>
+<text x="64" y="208" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">ROLE</text>
+<text x="230" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1f2328">Software Engineer</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1s" dur="0.35s" fill="freeze"/>
+<text x="64" y="248" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">FOCUS</text>
+<text x="230" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1f2328">AI / ML  ·  Full-Stack  ·  Backend</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.35s" fill="freeze"/>
+<text x="64" y="288" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">CURRENT BUILD</text>
+<text x="230" y="288" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#1f2328">RareCare · AI diagnostic assistant</text></g>
+<!-- status -->
+<g transform="translate(64, 346)">
+  <text font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">SYSTEM STATUS</text>
+  <g transform="translate(166, -5)">
+    <circle r="5" fill="#9a6700"><animate attributeName="fill" to="#1a7f37" begin="1.9s" dur="0.3s" fill="freeze"/></circle>
+    <circle r="5" fill="none" stroke="#1a7f37" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;0.8;0" begin="1.9s" dur="2.4s" repeatCount="indefinite"/><animate attributeName="r" values="5;12" begin="1.9s" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="14" y="4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#9a6700">INITIALIZING<animate attributeName="opacity" from="1" to="0" begin="1.7s" dur="0.2s" fill="freeze"/></text>
+    <text x="14" y="4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#1a7f37" opacity="0">ONLINE<animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.3s" fill="freeze"/></text>
+  </g>
+</g>
+<text x="64" y="392" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#8c959f" opacity="0">ENGINEERING PROFILE INITIALIZED<animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.4s" fill="freeze"/></text>
+<!-- pipeline -->
+<text x="692" y="120" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#8c959f">SYSTEM PIPELINE</text>
+<path d="M 700 150 L 700 382" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<g transform="translate(700, 150)">
+<circle r="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/><circle r="3" fill="#4f46e5"/>
+<text x="22" y="4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">DATA</text></g><g transform="translate(700, 208)">
+<circle r="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/><circle r="3" fill="#4f46e5"/>
+<text x="22" y="4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">AI / ML</text></g><g transform="translate(700, 266)">
+<circle r="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/><circle r="3" fill="#4f46e5"/>
+<text x="22" y="4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">BACKEND</text></g><g transform="translate(700, 324)">
+<circle r="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/><circle r="3" fill="#4f46e5"/>
+<text x="22" y="4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">APP</text></g><g transform="translate(700, 382)">
+<circle r="7" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/><circle r="3" fill="#4f46e5"/>
+<text x="22" y="4" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#656d76">DEPLOY</text></g>
+<circle r="3.5" fill="#0e8fa8"><animateMotion dur="4.5s" repeatCount="indefinite" path="M 700 150 L 700 382" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4.5s" repeatCount="indefinite"/></circle>
+<circle r="3.5" fill="#0e8fa8"><animateMotion dur="4.5s" begin="2.2s" repeatCount="indefinite" path="M 700 150 L 700 382" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4.5s" begin="2.2s" repeatCount="indefinite"/></circle>
+<!-- scan line -->
+<rect x="1" y="0" width="998" height="2" fill="#4f46e5" opacity="0.25"><animate attributeName="y" from="0" to="440" dur="6s" repeatCount="indefinite"/></rect>
+</svg>
