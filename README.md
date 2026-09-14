@@ -22,18 +22,39 @@ A diagnostic system combining **BioBERT** for symptom analysis with **CNNs train
 
 ## Featured Projects
 
-| Project | What it is | Stack | Links |
-|---|---|---|---|
-| **Sigil — Self-Sovereign Identity** | Holder-controlled digital credentials: secure issuance, verification and selective disclosure, with Merkle-root batch verification (one on-chain root per batch), zero-knowledge age proofs, M-of-N guardian recovery and on-chain trust management deployed on Ethereum Sepolia. | Next.js · Ethereum · IPFS · WebAuthn · Merkle trees · ZK proofs | **[▶ Live Demo](https://sigil-ssi-web.vercel.app/)** · [Case study](https://anjali-portfolio-hazel.vercel.app/projects/sigil) |
-| **ShoulderMotion AI** | Markerless 3D clinical motion analysis that automates postoperative shoulder assessment from ordinary cameras. Introduces two purpose-built measures — the Adaptive Shoulder Recovery Index (ASRI) and the Dynamic Movement Quality Engine (DMQE) — for explainable rehabilitation analytics that support clinical decision-making. | Flutter · FastAPI · MediaPipe · Python | **[▶ Live Demo](https://shoulder-rom-app.vercel.app/)** · [GitHub](https://github.com/Anjalisehrawat007/shoulder-rom-app) · [Case study](https://anjali-portfolio-hazel.vercel.app/projects/shouldermotion-ai) |
-| **Predicting Power Grid Failures with Deep Learning** | LSTM-based predictive maintenance over multivariate sensor streams (weather, demand, transformer temperature), trained to detect anomalous failure signatures in real-time data and raise early failure predictions — evaluated at 10% precision/recall in early failure detection. | LSTM · Deep learning · Time series | [GitHub](https://github.com/Anjalisehrawat007/Predicting-Power-Grid-Failures-with-Deep-Learning) · [Case study](https://anjali-portfolio-hazel.vercel.app/projects/power-grid-failure-prediction) |
-| **RareCare** | Two modality-specific pipelines — text (BioBERT) and image (CNN / MedMNIST) — converging on a single AI-assistance layer for rare and stigma-associated diseases. Ongoing. | BioBERT · CNN · MedMNIST · Flask · Hugging Face | [Case study](https://anjali-portfolio-hazel.vercel.app/projects/rarecare) |
+### Sigil — Self-Sovereign Identity
+Holder-controlled digital credentials: secure issuance, verification and selective disclosure. A batch of credentials is committed as a single Merkle root to an Ethereum trust layer, so verifiers check inclusion without contacting the issuer; zero-knowledge age proofs answer "over 18?" without revealing a birth date; M-of-N guardian recovery restores access with no central authority. Deployed on Ethereum Sepolia.
+
+`Next.js` `Ethereum` `IPFS` `WebAuthn` `Merkle trees` `Zero-knowledge proofs`
+
+**[▶ Live Demo](https://sigil-ssi-web.vercel.app/)** · [Case study](https://anjali-portfolio-hazel.vercel.app/projects/sigil)
+
+### ShoulderMotion AI
+Markerless 3D clinical motion analysis that automates postoperative shoulder assessment from ordinary cameras — no lab equipment. Introduces two purpose-built measures, the Adaptive Shoulder Recovery Index (ASRI) and the Dynamic Movement Quality Engine (DMQE), for explainable rehabilitation analytics that support clinical decision-making.
+
+`Flutter` `FastAPI` `MediaPipe` `Python`
+
+**[▶ Live Demo](https://shoulder-rom-app.vercel.app/)** · [GitHub](https://github.com/Anjalisehrawat007/shoulder-rom-app) · [Case study](https://anjali-portfolio-hazel.vercel.app/projects/shouldermotion-ai)
+
+### Predicting Power Grid Failures with Deep Learning
+LSTM-based predictive maintenance over multivariate sensor streams — weather, demand and transformer temperature — trained to detect anomalous failure signatures in real-time data and raise early failure predictions before a blackout. Evaluated at 10% precision/recall in early failure detection.
+
+`LSTM` `Deep learning` `Time series`
+
+[GitHub](https://github.com/Anjalisehrawat007/Predicting-Power-Grid-Failures-with-Deep-Learning) · [Case study](https://anjali-portfolio-hazel.vercel.app/projects/power-grid-failure-prediction)
+
+### RareCare — AI Assistant for Rare and Stigma-Associated Diseases
+Two modality-specific pipelines — text (BioBERT) and image (CNNs trained on MedMNIST) — converging on a single AI-assistance layer for conditions where people are least likely to seek early assessment. Ongoing; served via Flask and Hugging Face.
+
+`BioBERT` `CNN` `MedMNIST` `Flask` `Hugging Face`
+
+[Case study](https://anjali-portfolio-hazel.vercel.app/projects/rarecare)
 
 Every project on the [portfolio](https://anjali-portfolio-hazel.vercel.app/#projects) has an interactive architecture diagram — click a component to see what it does, why it exists and the technology behind it.
 
 ## Tech Stack
 
-| | |
+| Area | Technologies |
 |---|---|
 | **Languages** | Python · Java · C/C++ |
 | **AI / ML** | PyTorch · HuggingFace Transformers · Scikit-learn · BioBERT · CNNs · LSTMs · MediaPipe |
@@ -49,12 +70,12 @@ The contribution graph below is the live record. For a curated view, the portfol
 
 ## Experience & Achievements
 
-| | |
+| Role / Recognition | Impact |
 |---|---|
 | **Software Engineer — Ayuka Developers** *(May – Jul 2026)* | Translated functional requirements into scalable, user-focused software, reducing turnaround time by **10%**; targeted debugging and testing resolved critical bugs and improved load time by **15%**. |
 | **Data Science Intern — Zidio Development** *(Jun – Jul 2025)* | Analysed datasets with SQL and Python to inform decisions across **10** cross-functional teams; built automated Tableau dashboards that cut manual reporting time by **15%**. |
 | **All India Rank 47 — VITEEE 2023** | VIT Engineering Entrance Examination. |
-| **Core Committee Member — Technical Team, VITMAS Club** *(2024 – 2025)* | |
+| **Core Committee Member — Technical Team, VITMAS Club** *(2024 – 2025)* | Technical team leadership at VIT. |
 | **Core Team Member — E-Cell Inter-College Hackathon** *(2023 – 2024)* | Organised a hackathon hosting **500+** participants. |
 
 ## Certifications
