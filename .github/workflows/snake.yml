@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: snake
+  cancel-in-progress: false
+
 jobs:
   snake:
     runs-on: ubuntu-latest
