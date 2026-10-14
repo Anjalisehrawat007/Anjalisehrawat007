@@ -174,7 +174,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░  3%
 RECENT ACTIVITY
 ──────────────────────────────────────────
 anjali-portfolio               29d ago
-Predicting-Power-Grid-Failures 29d ago
+Predicting-Power-Grid-Failures 1mo ago
 trustmesh                      1mo ago
 shoulder-rom-app               2mo ago
 ATTEST-FL                      2mo ago
@@ -182,12 +182,12 @@ ATTEST-FL                      2mo ago
 | Repository | Language | Last push |
 |---|---|---|
 | [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) | TypeScript | 29d ago |
-| [Predicting-Power-Grid-Failures-with-Deep-Learning](https://github.com/Anjalisehrawat007/Predicting-Power-Grid-Failures-with-Deep-Learning) | — | 29d ago |
+| [Predicting-Power-Grid-Failures-with-Deep-Learning](https://github.com/Anjalisehrawat007/Predicting-Power-Grid-Failures-with-Deep-Learning) | — | 1mo ago |
 | [trustmesh](https://github.com/Anjalisehrawat007/trustmesh) | — | 1mo ago |
 | [shoulder-rom-app](https://github.com/Anjalisehrawat007/shoulder-rom-app) | JavaScript | 2mo ago |
 | [ATTEST-FL](https://github.com/Anjalisehrawat007/ATTEST-FL) | Python | 2mo ago |
 
-<sub>Auto-updated 2026-10-14 from the GitHub API · 17 public repos · 0 stars · 10 commits pushed in the last 30 days across 2 repos</sub>
+<sub>Auto-updated 2026-10-14 from the GitHub API · 17 public repos · 0 stars · 7 commits pushed in the last 30 days across 2 repos</sub>
 <!-- ACTIVITY:END -->
 
 ### Contribution Activity
@@ -232,7 +232,7 @@ ATTEST-FL                      2mo ago
 |---|---|
 | **Current build** | RareCare — AI assistant for rare & stigma-associated diseases · 🚧 in development |
 | **Latest push** | [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) · 29d ago |
-| **30-day throughput** | 10 commits · 2 active repos |
+| **30-day throughput** | 7 commits · 2 active repos |
 | **Profile refreshed** | 2026-10-14 (every 6h via GitHub Actions) |
 <!-- NOW:END -->
 
