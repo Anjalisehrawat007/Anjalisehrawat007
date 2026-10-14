@@ -128,13 +128,13 @@ LSTM-based predictive maintenance over **multivariate sensor streams** — weath
 
 `LSTM` `Deep learning` `Time series`
 
-**[ GitHub ](https://github.com/Anjalisehrawat007/Predicting-Power-Grid-Failures-with-Deep-Learning)** &nbsp; [Case study →](https://anjali-portfolio-hazel.vercel.app/projects/power-grid-failure-prediction)
+**[ GitHub ](https://github.com/Anjalisehrawat007/predictive-maintainance-for-power-grid)** &nbsp; [Case study →](https://anjali-portfolio-hazel.vercel.app/projects/power-grid-failure-prediction)
 
 </td>
 <td valign="top" width="50%">
 
 ### RARECARE
-**AI assistant for rare & stigma-associated diseases** &nbsp;·&nbsp; 🚧 `STATUS: IN DEVELOPMENT`
+**AI assistant for rare & stigma-associated diseases** &nbsp;·&nbsp; 🚧 `STATUS: IN DEVELOPMENT` &nbsp; 🔗 `REPO: PUBLIC`
 
 Two modality-specific pipelines — text (**BioBERT**) and image (**CNNs trained on MedMNIST**) — converging on a single AI-assistance layer for conditions where people are least likely to seek early assessment. Being extended toward early screening of stigma-related cancers; served via Flask and Hugging Face.
 
@@ -142,7 +142,7 @@ Two modality-specific pipelines — text (**BioBERT**) and image (**CNNs trained
 
 `BioBERT` `CNN` `MedMNIST` `Flask` `Hugging Face`
 
-[Case study →](https://anjali-portfolio-hazel.vercel.app/projects/rarecare)
+**[ GitHub ](https://github.com/Anjalisehrawat007/rarecare)** &nbsp; [Case study →](https://anjali-portfolio-hazel.vercel.app/projects/rarecare)
 
 </td>
 </tr>
