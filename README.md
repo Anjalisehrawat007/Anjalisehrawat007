@@ -314,24 +314,11 @@ shoulder-rom-app               2mo ago
 
 ## 🧭 Engineering Journey
 
-```text
-2023 ─┬─ B.Tech CSE · VIT (CGPA 8.65)
-      ├─ All India Rank 47 · VITEEE
-      └─ Core team · E-Cell hackathon (500+)
-      │
-2024 ─┬─ ShoulderMotion AI · clinical motion analysis
-      └─ Core Committee · VITMAS Technical Team
-      │
-2025 ─┬─ Data Science Intern · Zidio Development
-      ├─ Power Grid Failure Prediction · LSTM
-      └─ Oracle Certified Foundation Associate
-      │
-2026 ─┬─ Software Engineer · Ayuka Developers
-      │    turnaround −10% · load time −15%
-      ├─ Sigil · self-sovereign identity · Sepolia
-      ├─ IBM Agentic AI Professional
-      └─ RareCare · in development  ◀ now
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/journey-light.svg">
+  <img src="assets/journey-dark.svg" alt="Engineering journey 2023–2026: VIT B.Tech CSE, AIR 47 VITEEE, ShoulderMotion AI, Zidio data science internship, Power Grid LSTM, Ayuka software engineer, Sigil, IBM Agentic AI, RareCare (now)" width="100%">
+</picture>
 
 <br>
 

@@ -66,7 +66,43 @@ function ticker(t) {
 </svg>`;
 }
 
+
+// ── Engineering journey timeline ───────────────────────────────
+const journey = [
+  ["2023", ["B.Tech CSE · VIT (CGPA 8.65)", "All India Rank 47 · VITEEE", "Core team · E-Cell hackathon (500+)"]],
+  ["2024", ["ShoulderMotion AI · clinical motion analysis", "Core Committee · VITMAS Technical Team"]],
+  ["2025", ["Data Science Intern · Zidio Development", "Power Grid Failure Prediction · LSTM", "Oracle Certified Foundation Associate"]],
+  ["2026", ["Software Engineer · Ayuka Developers", "Sigil · self-sovereign identity · Sepolia", "IBM Agentic AI Professional", "RareCare · in development ◀ now"]],
+];
+function timeline(t) {
+  const W = 1000, H = 380, top = 70, colW = (W - 120) / journey.length, lineY = top + 20;
+  const lineLen = W - 120;
+  let n = 0;
+  const cols = journey.map(([year, items], i) => {
+    const x = 60 + i * colW, d0 = 0.3 + i * 0.7, last = i === journey.length - 1;
+    const dot = `<circle cx="${x + 8}" cy="${lineY}" r="0" fill="${last ? t.accent2 : t.accent}"><animate attributeName="r" from="0" to="7" begin="${d0}s" dur="0.3s" fill="freeze"/></circle>` +
+      (last ? `<circle cx="${x + 8}" cy="${lineY}" r="7" fill="none" stroke="${t.accent2}" opacity="0"><animate attributeName="r" values="7;18" begin="${d0 + 0.3}s" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" begin="${d0 + 0.3}s" dur="1.8s" repeatCount="indefinite"/></circle>` : "");
+    const yr = `<text x="${x}" y="${top - 10}" font-family="${FONT}" font-size="20" font-weight="700" fill="${t.fg}" opacity="0">${year}<animate attributeName="opacity" from="0" to="1" begin="${d0}s" dur="0.3s" fill="freeze"/></text>`;
+    const its = items.map((it, j) => {
+      const b = d0 + 0.25 + j * 0.18, now = last && j === items.length - 1;
+      return `<g opacity="0" transform="translate(${x},${lineY + 46 + j * 54})"><animate attributeName="opacity" from="0" to="1" begin="${b}s" dur="0.35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="${x} ${lineY + 58 + j * 54}" to="${x} ${lineY + 46 + j * 54}" begin="${b}s" dur="0.35s" fill="freeze"/>
+<rect width="${colW - 16}" height="42" rx="8" fill="${t.pill}" stroke="${now ? t.accent2 : t.border}"/>
+${wrap(it, 26).map((ln, k) => `<text x="10" y="${18 + k * 15}" font-family="${FONT}" font-size="12" fill="${now ? t.accent2 : t.fg}">${esc(ln)}</text>`).join("")}</g>`;
+    }).join("\n");
+    return yr + dot + its;
+  }).join("\n");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Engineering journey 2023 to 2026: ${esc(journey.map(([y, i]) => y + ": " + i.join(", ")).join("; "))}">
+<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="${t.bg}" stroke="${t.border}"/>
+<line x1="60" y1="${lineY}" x2="${60 + lineLen}" y2="${lineY}" stroke="${t.border}" stroke-width="2"/>
+<line x1="60" y1="${lineY}" x2="${60 + lineLen}" y2="${lineY}" stroke="${t.accent}" stroke-width="2" stroke-dasharray="${lineLen}" stroke-dashoffset="${lineLen}"><animate attributeName="stroke-dashoffset" from="${lineLen}" to="0" begin="0.2s" dur="2.6s" fill="freeze"/></line>
+<circle r="3" fill="${t.accent2}"><animateMotion path="M 60 ${lineY} H ${60 + lineLen}" begin="3s" dur="3.5s" repeatCount="indefinite"/></circle>
+${cols}
+</svg>`;
+}
+function wrap(s, n) { const out = []; let cur = ""; for (const w of s.split(" ")) { if ((cur + " " + w).trim().length > n) { out.push(cur.trim()); cur = w; } else cur += " " + w; } out.push(cur.trim()); return out.slice(0, 2); }
+
 for (const [name, t] of Object.entries(themes)) {
+  writeFileSync(`assets/journey-${name}.svg`, timeline(t));
   writeFileSync(`assets/typing-${name}.svg`, typing(t));
   writeFileSync(`assets/ticker-${name}.svg`, ticker(t));
 }
