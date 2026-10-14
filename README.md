@@ -90,7 +90,7 @@ How technology becomes engineering becomes shipped systems. Animated edges are t
 <td valign="top" width="50%">
 
 ### SIGIL
-**Self-sovereign identity** &nbsp;·&nbsp; 🟢 `STATUS: LIVE DEMO` &nbsp; 🔒 `REPO: PRIVATE`
+**Self-sovereign identity** &nbsp;·&nbsp; 🟢 `STATUS: LIVE DEMO` &nbsp; 🔗 `REPO: PUBLIC`
 
 Holder-controlled credentials with secure issuance, verification and selective disclosure. A batch of credentials is committed as **one Merkle root** to an Ethereum trust layer; **zero-knowledge age proofs** answer "over 18?" without revealing a birth date; **M-of-N guardian recovery** restores access with no central authority. Deployed on Ethereum Sepolia.
 
@@ -98,7 +98,7 @@ Holder-controlled credentials with secure issuance, verification and selective d
 
 `Next.js` `Ethereum` `IPFS` `WebAuthn` `Merkle trees` `ZK proofs`
 
-**[ ▶ LIVE DEMO ](https://sigil-ssi-web.vercel.app/)** &nbsp; [Case study →](https://anjali-portfolio-hazel.vercel.app/projects/sigil)
+**[ ▶ LIVE DEMO ](https://sigil-ssi-web.vercel.app/)** &nbsp; **[ GitHub ](https://github.com/Anjalisehrawat007/SIGIL-SSI)** &nbsp; [Case study →](https://anjali-portfolio-hazel.vercel.app/projects/sigil)
 
 </td>
 <td valign="top" width="50%">
