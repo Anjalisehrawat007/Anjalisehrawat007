@@ -285,21 +285,21 @@ CSS          █░░░░░░░░░░░░░░░░░░░  2%
 
 RECENT ACTIVITY
 ──────────────────────────────────────────
-anjali-portfolio               today
 predictive-maintainance-for-po today
+anjali-portfolio               today
 rarecare                       today
 trustmesh                      1mo ago
 shoulder-rom-app               2mo ago
 ```
 | Repository | Language | Last push |
 |---|---|---|
-| [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) | TypeScript | today |
 | [predictive-maintainance-for-power-grid](https://github.com/Anjalisehrawat007/predictive-maintainance-for-power-grid) | Python | today |
+| [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) | TypeScript | today |
 | [rarecare](https://github.com/Anjalisehrawat007/rarecare) | — | today |
 | [trustmesh](https://github.com/Anjalisehrawat007/trustmesh) | — | 1mo ago |
 | [shoulder-rom-app](https://github.com/Anjalisehrawat007/shoulder-rom-app) | JavaScript | 2mo ago |
 
-<sub>Auto-updated 2026-10-14 from the GitHub API · 18 public repos · 0 stars · 21 commits pushed in the last 30 days across 3 repos</sub>
+<sub>Auto-updated 2026-10-14 from the GitHub API · 18 public repos · 0 stars · 24 commits pushed in the last 30 days across 3 repos</sub>
 <!-- ACTIVITY:END -->
 
 ### Contribution Activity
@@ -330,8 +330,8 @@ shoulder-rom-app               2mo ago
 | Field | Status |
 |---|---|
 | **Current build** | RareCare — AI assistant for rare & stigma-associated diseases · 🚧 in development |
-| **Latest push** | [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) · today |
-| **30-day throughput** | 21 commits · 3 active repos |
+| **Latest push** | [predictive-maintainance-for-power-grid](https://github.com/Anjalisehrawat007/predictive-maintainance-for-power-grid) · today |
+| **30-day throughput** | 24 commits · 3 active repos |
 | **Profile refreshed** | 2026-10-14 (every 6h via GitHub Actions) |
 <!-- NOW:END -->
 
