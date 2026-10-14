@@ -15,7 +15,7 @@ const phrases = [
   "Building AI that ships — from model to production.",
   "BioBERT + CNNs for rare-disease screening.",
   "Zero-knowledge identity on Ethereum.",
-  "LSTMs that predict grid failures before blackouts.",
+  "Deep learning that warns of grid failures 3 h early.",
   "Open to Software Engineering & AI/ML roles.",
 ];
 function typing(t) {
@@ -71,7 +71,7 @@ function ticker(t) {
 const journey = [
   ["2023", ["B.Tech CSE · VIT (CGPA 8.65)", "All India Rank 47 · VITEEE", "Core team · E-Cell hackathon (500+)"]],
   ["2024", ["ShoulderMotion AI · clinical motion analysis", "Core Committee · VITMAS Technical Team"]],
-  ["2025", ["Data Science Intern · Zidio Development", "Power Grid Failure Prediction · LSTM", "Oracle Certified Foundation Associate"]],
+  ["2025", ["Data Science Intern · Zidio Development", "Power Grid early warning · GRU + attention", "Oracle Certified Foundation Associate"]],
   ["2026", ["Software Engineer · Ayuka Developers", "Sigil · self-sovereign identity · Sepolia", "IBM Agentic AI Professional", "RareCare · in development ◀ now"]],
 ];
 function timeline(t) {

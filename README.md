@@ -151,11 +151,13 @@ Markerless 3D motion analysis that automates postoperative shoulder assessment f
 ### POWER GRID FAILURE PREDICTION
 **Deep learning for infrastructure** &nbsp;·&nbsp; 🟢 `STATUS: LIVE DEMO` &nbsp; 🔗 `REPO: PUBLIC`
 
-LSTM-based predictive maintenance over **multivariate sensor streams** — weather, demand and transformer temperature — trained to detect anomalous failure signatures in real-time data and raise early failure predictions before a blackout. Evaluated at 10% precision/recall in early failure detection.
+Real-time early-warning platform for power-transformer sensor streams. A **GRU + temporal-attention** model (31k params) reads a 12-hour causal window and scores failure risk for the next 2 hours; the score is calibrated, explained, and turned into alerts by a streaming engine behind FastAPI and a React ops center.
 
-<sub><code>Sensor streams · weather / demand / transformer temp</code> → <code>Multivariate sequence</code> → <code>LSTM</code> → <code>Failure-pattern detection</code> → <code>Early prediction</code></sub>
+**Held-out results:** PR-AUC **0.326** · ROC-AUC **0.845** · **75.8%** of predictable failures warned · **3 h** median lead time · **5.5 ms** p50 ONNX latency
 
-`LSTM` `Deep learning` `Time series`
+<sub><code>Sensor streams · weather / demand / transformer temp</code> → <code>12 h causal window</code> → <code>GRU + attention · ONNX</code> → <code>Calibrated risk</code> → <code>Streaming alerts</code></sub>
+
+`PyTorch` `GRU + attention` `ONNX` `FastAPI` `React`
 
 **[ ▶ LIVE DEMO ](https://predictive-maintenance-power-grid.vercel.app/)** &nbsp; **[ GitHub ](https://github.com/Anjalisehrawat007/predictive-maintainance-for-power-grid)** &nbsp; [Case study →](https://anjali-portfolio-hazel.vercel.app/projects/power-grid-failure-prediction)
 
@@ -225,7 +227,7 @@ flowchart LR
   W([Weather]) --> Q[Multivariate sequence window]
   D([Demand]) --> Q
   T([Transformer temp]) --> Q
-  Q --> L[LSTM] --> AN{Anomaly score}
+  Q --> L[GRU + temporal attention · ONNX] --> AN{Anomaly score}
   AN -->|above threshold| AL[🚨 Early failure alert]
   AN -->|normal| OK[Grid healthy]
 ```
