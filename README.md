@@ -78,7 +78,7 @@ How technology becomes engineering becomes shipped systems. Animated edges are t
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/constellation-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/constellation-light.svg">
-  <img src="assets/constellation-dark.svg" alt="Project constellation: Sigil (live demo), ShoulderMotion AI (live, open source), Power Grid Prediction (repository), RareCare (in development)" width="100%">
+  <img src="assets/constellation-dark.svg" alt="Project constellation: Sigil (live demo), ShoulderMotion AI (live, open source), Power Grid Prediction (live demo), RareCare (in development)" width="100%">
 </picture>
 
 <br>
@@ -120,7 +120,7 @@ Markerless 3D motion analysis that automates postoperative shoulder assessment f
 <td valign="top" width="50%">
 
 ### POWER GRID FAILURE PREDICTION
-**Deep learning for infrastructure** &nbsp;·&nbsp; 🔗 `STATUS: REPOSITORY` &nbsp; `REPO: PUBLIC`
+**Deep learning for infrastructure** &nbsp;·&nbsp; 🟢 `STATUS: LIVE DEMO` &nbsp; 🔗 `REPO: PUBLIC`
 
 LSTM-based predictive maintenance over **multivariate sensor streams** — weather, demand and transformer temperature — trained to detect anomalous failure signatures in real-time data and raise early failure predictions before a blackout. Evaluated at 10% precision/recall in early failure detection.
 
@@ -128,7 +128,7 @@ LSTM-based predictive maintenance over **multivariate sensor streams** — weath
 
 `LSTM` `Deep learning` `Time series`
 
-**[ GitHub ](https://github.com/Anjalisehrawat007/predictive-maintainance-for-power-grid)** &nbsp; [Case study →](https://anjali-portfolio-hazel.vercel.app/projects/power-grid-failure-prediction)
+**[ ▶ LIVE DEMO ](https://predictive-maintenance-power-grid.vercel.app/)** &nbsp; **[ GitHub ](https://github.com/Anjalisehrawat007/predictive-maintainance-for-power-grid)** &nbsp; [Case study →](https://anjali-portfolio-hazel.vercel.app/projects/power-grid-failure-prediction)
 
 </td>
 <td valign="top" width="50%">
