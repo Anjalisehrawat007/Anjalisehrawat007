@@ -274,30 +274,30 @@ flowchart LR
 ```text
 TOP LANGUAGES · by bytes across own repos
 ──────────────────────────────────────────
-JavaScript   █████████░░░░░░░░░░░ 44%
-Python       █████░░░░░░░░░░░░░░░ 25%
-TypeScript   ████░░░░░░░░░░░░░░░░ 18%
-Solidity     █░░░░░░░░░░░░░░░░░░░  7%
+Python       ███████░░░░░░░░░░░░░ 35%
+JavaScript   ███████░░░░░░░░░░░░░ 34%
+TypeScript   ████░░░░░░░░░░░░░░░░ 21%
+Solidity     █░░░░░░░░░░░░░░░░░░░  5%
 HTML         █░░░░░░░░░░░░░░░░░░░  3%
-CSS          █░░░░░░░░░░░░░░░░░░░  3%
+CSS          █░░░░░░░░░░░░░░░░░░░  2%
 
 RECENT ACTIVITY
 ──────────────────────────────────────────
-anjali-portfolio               29d ago
-Predicting-Power-Grid-Failures 1mo ago
+anjali-portfolio               today
+predictive-maintainance-for-po today
+rarecare                       today
 trustmesh                      1mo ago
 shoulder-rom-app               2mo ago
-ATTEST-FL                      2mo ago
 ```
 | Repository | Language | Last push |
 |---|---|---|
-| [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) | TypeScript | 29d ago |
-| [Predicting-Power-Grid-Failures-with-Deep-Learning](https://github.com/Anjalisehrawat007/Predicting-Power-Grid-Failures-with-Deep-Learning) | — | 1mo ago |
+| [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) | TypeScript | today |
+| [predictive-maintainance-for-power-grid](https://github.com/Anjalisehrawat007/predictive-maintainance-for-power-grid) | Python | today |
+| [rarecare](https://github.com/Anjalisehrawat007/rarecare) | — | today |
 | [trustmesh](https://github.com/Anjalisehrawat007/trustmesh) | — | 1mo ago |
 | [shoulder-rom-app](https://github.com/Anjalisehrawat007/shoulder-rom-app) | JavaScript | 2mo ago |
-| [ATTEST-FL](https://github.com/Anjalisehrawat007/ATTEST-FL) | Python | 2mo ago |
 
-<sub>Auto-updated 2026-10-14 from the GitHub API · 17 public repos · 0 stars · 7 commits pushed in the last 30 days across 2 repos</sub>
+<sub>Auto-updated 2026-10-14 from the GitHub API · 18 public repos · 0 stars · 17 commits pushed in the last 30 days across 3 repos</sub>
 <!-- ACTIVITY:END -->
 
 ### Contribution Activity
@@ -341,8 +341,8 @@ ATTEST-FL                      2mo ago
 | Field | Status |
 |---|---|
 | **Current build** | RareCare — AI assistant for rare & stigma-associated diseases · 🚧 in development |
-| **Latest push** | [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) · 29d ago |
-| **30-day throughput** | 7 commits · 2 active repos |
+| **Latest push** | [anjali-portfolio](https://github.com/Anjalisehrawat007/anjali-portfolio) · today |
+| **30-day throughput** | 17 commits · 3 active repos |
 | **Profile refreshed** | 2026-10-14 (every 6h via GitHub Actions) |
 <!-- NOW:END -->
 
