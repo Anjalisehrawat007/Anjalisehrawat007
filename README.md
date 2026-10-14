@@ -6,6 +6,12 @@
   <img src="assets/boot-dark.svg" alt="ANJALI.SYS boot screen — Identity: Anjali Sehrawat · Role: Software Engineer · Focus: AI/ML, Full-Stack, Backend · Current build: RareCare · System status: online" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/typing-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/typing-light.svg">
+  <img src="assets/typing-dark.svg" alt="Animated intro: building AI that ships; BioBERT + CNNs for rare-disease screening; zero-knowledge identity on Ethereum; LSTMs that predict grid failures; open to SWE and AI/ML roles" width="100%">
+</picture>
+
 <p align="center">
   <a href="https://anjali-portfolio-hazel.vercel.app"><b>PORTFOLIO</b></a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/anjali-sehrawat-2a1a68357/"><b>LINKEDIN</b></a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -73,6 +79,14 @@
 </td>
 </tr>
 </table>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ticker-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/ticker-light.svg">
+  <img src="assets/ticker-dark.svg" alt="Scrolling tech stack: Python, PyTorch, Hugging Face, FastAPI, Next.js, Ethereum, Docker and more" width="100%">
+</picture>
 
 <br>
 
@@ -167,6 +181,72 @@ Two modality-specific pipelines — text (**BioBERT**) and image (**CNNs trained
 
 <br>
 
+
+
+## 🔬 Architecture Deep-Dives
+
+<sub>Click a project to expand its system diagram.</sub>
+
+<details>
+<summary><b>SIGIL</b> — how a credential becomes verifiable without revealing data</summary>
+
+```mermaid
+flowchart LR
+  H([Holder · WebAuthn passkey]) --> I[Issuer API]
+  I --> P[(IPFS · encrypted credentials)]
+  I --> M[Merkle tree · batch]
+  M --> E[[Ethereum Sepolia · root anchor]]
+  H --> Z[ZK proof · age over 18]
+  Z --> V{Verifier}
+  E --> V
+  P --> V
+  G([M-of-N guardians]) -. recovery .-> H
+```
+</details>
+
+<details>
+<summary><b>RareCare</b> — two modalities, one AI-assistance layer</summary>
+
+```mermaid
+flowchart LR
+  S([Symptom text]) --> B[BioBERT] --> SA[Symptom analysis]
+  X([Medical scan]) --> C[CNN · MedMNIST] --> SC[Screening]
+  SA --> A{{AI assistance layer}}
+  SC --> A
+  A --> F[Flask API] --> HF[(Hugging Face)]
+```
+</details>
+
+<details>
+<summary><b>Power Grid Failure Prediction</b> — sensor streams to early warning</summary>
+
+```mermaid
+flowchart LR
+  W([Weather]) --> Q[Multivariate sequence window]
+  D([Demand]) --> Q
+  T([Transformer temp]) --> Q
+  Q --> L[LSTM] --> AN{Anomaly score}
+  AN -->|above threshold| AL[🚨 Early failure alert]
+  AN -->|normal| OK[Grid healthy]
+```
+</details>
+
+<details>
+<summary><b>ShoulderMotion AI</b> — camera to clinical metrics</summary>
+
+```mermaid
+flowchart LR
+  CAM([Phone camera]) --> FL[Flutter client]
+  FL --> API[FastAPI]
+  API --> MP[MediaPipe pose · 3D landmarks]
+  MP --> ASRI[ASRI · recovery index]
+  MP --> DMQE[DMQE · movement quality]
+  ASRI --> R[Explainable rehab report]
+  DMQE --> R
+```
+</details>
+
+<br>
 
 ## 🧰 More Builds
 
