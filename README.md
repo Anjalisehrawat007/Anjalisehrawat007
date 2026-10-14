@@ -15,6 +15,21 @@
 
 <p align="center"><sub>SOFTWARE ENGINEER &nbsp;·&nbsp; AI / ML &nbsp;·&nbsp; FULL-STACK &nbsp;·&nbsp; VIT, B.Tech CSE (CGPA 8.65)</sub></p>
 
+<table align="center">
+<tr>
+<td align="center"><b>3</b><br><sub>LIVE PRODUCTS</sub></td>
+<td align="center"><b>2</b><br><sub>SWE / DS INTERNSHIPS</sub></td>
+<td align="center"><b>AIR 47</b><br><sub>VITEEE 2023</sub></td>
+<td align="center"><b>8.65</b><br><sub>CGPA · VIT CSE</sub></td>
+<td align="center"><b>−15%</b><br><sub>LOAD TIME SHIPPED</sub></td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://anjali-portfolio-hazel.vercel.app/resume"><img alt="Resume" src="https://img.shields.io/badge/RESUME-view-111?style=for-the-badge"></a>
+  <img alt="Open to roles" src="https://img.shields.io/badge/OPEN_TO-SWE_%26_AI%2FML_ROLES-2ea043?style=for-the-badge">
+</p>
+
 > I build intelligent, end-to-end software systems — from BioBERT and CNN-based medical screening to a self-sovereign identity platform on Ethereum — and take ML-powered products from model to deployment with Python, PyTorch, Hugging Face, MERN and FastAPI.
 
 <br>
@@ -149,6 +164,21 @@ Two modality-specific pipelines — text (**BioBERT**) and image (**CNNs trained
 </table>
 
 <sub>Each case study on the <a href="https://anjali-portfolio-hazel.vercel.app/#projects">portfolio</a> has an interactive architecture diagram — click a component to see what it does, why it exists and the technology behind it.</sub>
+
+<br>
+
+
+## 🧰 More Builds
+
+| Project | What it shows | Stack |
+|---|---|---|
+| [**CollabCode**](https://github.com/Anjalisehrawat007/collabcode-) | Real-time collaborative editor with Operational Transformation conflict resolution | `MERN` `Socket.io` `OT` |
+| [**DevCoach AI**](https://github.com/Anjalisehrawat007/devcoch) | AI mock-interview coach with structured feedback and ELO-adaptive difficulty | `React` `Node` `MongoDB` `LLM` |
+| [**TetraRoute-RAG**](https://github.com/Anjalisehrawat007/RAG) | Conformal-calibrated query routing and fallback verification for RAG | `PyTorch` `FAISS` `XGBoost` |
+| [**Churn ML Pipeline**](https://github.com/Anjalisehrawat007/End-to-End-ML-Pipeline-Churn-Prediction-) | End-to-end MLOps: experiment tracking, REST serving, containers | `MLflow` `FastAPI` `Docker` |
+| [**DistilBERT Sentiment**](https://github.com/Anjalisehrawat007/Transformer-Based-NLP-Fine-Tuned-DistilBERT-Sentiment-Analyzer) | Fine-tuned transformer on SST-2 with a Streamlit demo | `Transformers` `PyTorch` `W&B` |
+| [**HARP-WDN**](https://github.com/Anjalisehrawat007/Optimised-Water-Distribution-System) | Water-network failure simulation and recovery prioritisation | `WNTR` `GAT` `Python` |
+| [**ATTEST-FL**](https://github.com/Anjalisehrawat007/ATTEST-FL) | Economic settlement for blockchain-based federated learning (research) | `Python` `Blockchain` `FL` |
 
 <br>
 
